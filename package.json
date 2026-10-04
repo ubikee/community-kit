@@ -1,0 +1,25 @@
+{
+  "name": "community-kit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Grupos, foro y chat reutilizables (servidor Express + componentes React)",
+  "type": "commonjs",
+  "exports": {
+    "./server": "./server/index.js",
+    "./react": "./react/index.jsx",
+    "./styles.css": "./react/styles.css"
+  },
+  "files": [
+    "server",
+    "react"
+  ],
+  "scripts": {
+    "test": "node server/test.js"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
